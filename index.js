@@ -1,7 +1,7 @@
 require("console.table");
 const mysql = require("mysql");
 const inquirer = require("inquirer");
-const MYSQL_PASSWORD = "LSalalila741!";
+const MYSQL_PASSWORD = "";
 
 var connection = mysql.createConnection({
   host: "localhost", //127.0.0.1
